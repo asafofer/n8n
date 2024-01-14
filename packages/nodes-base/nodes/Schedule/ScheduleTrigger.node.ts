@@ -8,7 +8,7 @@ import {
 } from 'n8n-workflow';
 
 import { CronJob } from 'cron';
-import moment from 'moment';
+import moment from 'moment-timezone';
 
 export class ScheduleTrigger implements INodeType {
 	description: INodeTypeDescription = {
